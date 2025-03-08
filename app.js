@@ -1,8 +1,8 @@
 // Client ID from Google API Console
-const CLIENT_ID = 'YOUR_CLIENT_ID.apps.googleusercontent.com';
+const CLIENT_ID = '884149033537-mt7vt937cmt54llnvjcv63ovtkv970mk.apps.googleusercontent.com';
 
 // Google Sheets API settings
-const SPREADSHEET_ID = 'YOUR_SPREADSHEET_ID'; // Your Google Sheet ID
+const SPREADSHEET_ID = '1JMHX9O6kcjWSDUcio7jo9AfY-VNgxLF-6QMsw_OzcnU'; // Your Google Sheet ID
 const RANGE = 'Sheet1!A:C'; // Example range where player stats are stored
 
 let playerStats = [];
