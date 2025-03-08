@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stats Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Player Stats Tracker</h1>
+    </header>
+
+    <section id="stats-container">
+        <h2>Player Stats</h2>
+        <form id="stats-form">
+            <label for="playerName">Player Name:</label>
+            <input type="text" id="playerName" required>
+            <label for="stat">Stat:</label>
+            <input type="number" id="stat" required>
+            <button type="submit">Save Stats</button>
+        </form>
+        <div id="playerStats">
+            <h3>Stats for Players</h3>
+            <div id="stats-list"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Stats Website &copy; 2025</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
